@@ -1,0 +1,46 @@
+.icons i{
+opacity: .7;
+margin-left: 1.3em;
+font-size: 1.8em;
+transition: .2s;
+padding: .65em;
+border-radius: 50%;
+display: grid;
+place-items: center;
+background: #d4dbe8;
+box-shadow: -11px -11px 25px rgba(255, 255, 255, .35),11px 13px 25px rgba(165, 181, 208, .73);
+}
+
+.icons i:hover{
+    opacity: 1;
+    border-radius: 50%;
+    background:#d4dbe8;
+    transform: scale(1.1);
+    mix-blend-mode: normal;
+    box-shadow: -11px -11px 22px rgba(255, 255, 255, .524448), 11px 13px 22px rgba(165, 181, 208, .929496), inset -11px -11px 28px rgba(255, 255, 255, .692936), inset 11px 11px 28px rgba(165, 181, 208, .856261);
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #D4DBE8;
+}
+
+.icons{
+    margin-top: 2.3rem;
+    display: flex;
+}
+
+a:hover{
+    cursor: pointer;
+}
